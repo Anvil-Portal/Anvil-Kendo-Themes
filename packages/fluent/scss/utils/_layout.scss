@@ -1,6 +1,6 @@
 @use "../core" as *;
 
-@use "@progress/kendo-theme-utils/scss/index.import.scss" as * with (
+@use "../../../../node_modules/@progress/kendo-theme-utils/scss/index.import.scss" as * with (
     $kendo-spacing: $kendo-spacing,
     $kendo-font-sizes: $kendo-font-sizes,
     $kendo-border-radii: $kendo-border-radii,

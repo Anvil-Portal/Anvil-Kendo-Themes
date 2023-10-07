@@ -1,8 +1,6 @@
 @use "./_variables.scss" as *;
 
-@use "@progress/kendo-svg-icons/scss/index.scss" with (
-    $ki-icon-size: var( --kendo-icon-size, 1rem )
-);
+@use "../../../../node_modules/@progress/kendo-svg-icons/scss/index.scss" with ( $ki-icon-size: var( --kendo-icon-size, 1rem ) );
 
 @mixin kendo-icon--layout() {
 

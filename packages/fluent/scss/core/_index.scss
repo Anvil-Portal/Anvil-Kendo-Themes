@@ -11,7 +11,7 @@
 // Variables
 @forward "./variables";
 
-@forward "@progress/kendo-theme-core/scss/index.import.scss"  with (
+@forward "../../../../node_modules/@progress/kendo-theme-core/scss/index.import.scss"  with (
     $kendo-palettes: $kendo-fluent-palettes,
     $_default-elevation: $kendo-elevation,
     $kendo-elevation: $kendo-elevation !default,
