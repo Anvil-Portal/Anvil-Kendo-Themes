@@ -50,4 +50,4 @@ $_default-elevation: (
 /// @group elevation
 $kendo-elevation: $_default-elevation !default;
 
-@import "@progress/kendo-theme-core/scss/elevation/index.import.scss";
+@import "../../../node_modules/@progress/kendo-theme-core/scss/elevation/index.import.scss";

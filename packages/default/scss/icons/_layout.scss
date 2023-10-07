@@ -1,7 +1,7 @@
 $ki-embed-font: false;
 $ki-icon-size: $kendo-icon-size;
 
-@import "@progress/kendo-svg-icons/scss/index.scss";
+@import "../../../../node_modules/@progress/kendo-svg-icons/scss/index.scss";
 
 @mixin kendo-icon--layout-base() {
 
