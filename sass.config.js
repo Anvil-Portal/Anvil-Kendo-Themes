@@ -9,9 +9,19 @@ module.exports = {
         //    outFile: 'dist/all.css'
         //},
         {
+            cwd: 'node_modules/bootstrap',
+            file: 'scss/bootstrap.scss',
+            outFile: '/git/2023_09_23/Solutions/Anvil-Portal-Security/Anvil.Portal.Security.Web/wwwroot/css/bootstrap.css'
+        },
+        {
             cwd: 'packages/bootstrap',
             file: 'scss/all.scss',
             outFile: '/git/2023_09_23/Solutions/Anvil-Portal-Security/Anvil.Portal.Security.Web/wwwroot/css/themes/bootstrap/kendo-bootstrap.css'
+        },
+        {
+            cwd: 'packages/anvil',
+            file: 'scss/dashboard/portal-dashboard.scss',
+            outFile: '/git/2023_09_23/Solutions/Anvil-Portal-Security/Anvil.Portal.Security.Web/wwwroot/css/anvil/portal-dashboard.css'
         },
         //{
         //    cwd: 'packages/classic',
